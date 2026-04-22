@@ -47,7 +47,9 @@
 
 package lesson02.challenge08;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Detective {
 
@@ -70,8 +72,30 @@ public class Detective {
 
 		//ここに入力処理を入れる
 
-		//ここにswitch文を入れる
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
+		String str = reader.readLine();
+		int choice = Integer.parseInt(str);
+
+		//ここにswitch文を入れる
+		switch (choice) {
+		case (1):
+			System.out.println("探偵：");
+			System.out.println("やっぱりその可能性が高いね。");
+			break;
+		case (2):
+			System.out.println("探偵;");
+			System.out.println("その可能性は低いかな。");
+			break;
+		case (3):
+			System.out.println("探偵:");
+			System.out.println("探偵:");
+			break;
+		default:
+			System.out.println("探偵:");
+			System.out.println("他に道はありませんよ。");
+
+		}
 	}
 
 }
