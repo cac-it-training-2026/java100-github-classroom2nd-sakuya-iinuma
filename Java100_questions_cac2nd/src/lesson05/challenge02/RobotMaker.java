@@ -46,6 +46,10 @@ package lesson05.challenge02;
 class Robot {
 	int energy;
 	String name;
+
+	void pumpWater() {
+		System.out.println("水を１リットル出しました。\n");
+	}
 }
 
 public class RobotMaker {
