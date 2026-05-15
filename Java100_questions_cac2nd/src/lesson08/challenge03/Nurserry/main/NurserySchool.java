@@ -10,7 +10,7 @@
  *
  */
 
-package lesson08.challenge01;
+package lesson08.challenge03.Nurserry.main;
 
 public class NurserySchool {
 

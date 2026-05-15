@@ -1,4 +1,4 @@
-package lesson09.challenge01.Nurserry.logic;
+package lesson08.challenge02.Nursery;
 
 public class NurserySchoolChild {
 
